@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://gifs.eco.br/wp-content/uploads/2022/09/gifs-de-tecnologia-2.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(55, 155, 255, 0.8);
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    margin-bottom: 2%;
+    font-family: "tecno";
+}
+
+header img {
+    width: 150px;
+    height: 120px;
+}
+
+.conteudo {
+    position: absolute;
+    background:  rgba(100, 100, 100, 0.8);
+    border-radius: 5px, 5px solid ;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 18px;
+    letter-spacing: 10%;
+}
+
+.conteudo h2 {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    background-color: rgba(55, 155, 255, 0.8);
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 15px;
+    margin-top: 55%;
+}
+
+@font-face {
+    font-family: "tecno";
+    src: url(Techovier\ .otf);
+}
